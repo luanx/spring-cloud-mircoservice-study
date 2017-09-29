@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luanx/spring-cloud-microservice-study
+          search-paths: config-repo
+          username: luanx@wantdo.com
+          password: 4843236dly
+server:
+  port: 8040
